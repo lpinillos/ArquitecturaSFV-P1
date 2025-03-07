@@ -11,7 +11,15 @@
 [Breve descripción de tu implementación]
 
 ## Dockerfile
-[Explica las decisiones tomadas en la creación del Dockerfile]
+![image](https://github.com/user-attachments/assets/d0199e3c-2bc2-417e-a6ce-82cb7eb078f9)
+- Se hace uso de una imagen oficial de Nodejs, especificamente de la versión 14 debido a que esta es una versión LTS. También se hace uso de alpine debido a que es una versión mas ligera.
+- El WORKDIR se definió asi debido a que es una ruta estandar para contenedores de Nodejs, lo cual facilita que el resto de comandos se ejecute en esa ruta.
+- Se copian el package.json y el package-lock.json debido a que queremos copiar todas las dependencias, tomando en consideración los cambios que pueden tener estos archivos.
+- Luego se hace el npm install para poder instalar todas las dependencias.
+- Después de instalar las dependencias, copiamos todo el codigo fuente al contenedor.
+- Se expone el puerto 3000 para que la aplicación sea accesible por fuera del contenedor.
+- Se definen las variables de entorno para facilitar su gestión, por ejemplo la variable de entorno de puerto nos permite modificar el puerto sin necesidad de modificar el codigo. En cuanto al NODE_ENV=production, esto se hace porque muchos frameworks y librerias optimizan su rendimiento en este modo.
+- Por último, se define el comando de ejecución de la aplicación.
 
 ## Script de Automatización
 [Describe cómo funciona tu script y las funcionalidades implementadas]
