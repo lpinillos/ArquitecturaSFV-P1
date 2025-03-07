@@ -37,10 +37,13 @@
 
 ![image](https://github.com/user-attachments/assets/e0c02529-52e9-4bd8-8836-e8bf13a3ba68)
 
-![image](https://github.com/user-attachments/assets/71685dfd-5de9-47ad-a154-b09f95a6545d)
-
 ## Mejoras Futuras
 [Describe al menos 3 mejoras que podrían implementarse en el futuro]
 
+- Se podria implementar un manejo de errores mas detallado.
+- 
+
 ## Instrucciones para Ejecutar
 [Instrucciones paso a paso para ejecutar tu solución]
+
+clona el repositorio
