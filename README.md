@@ -55,6 +55,7 @@ git clone https://github.com/lpinillos/ArquitecturaSFV-P1.git
 git cd ArquitecturaSFV-P1.git
 
 # Dar permisos de ejecución al script\sudo chmod +x deploy.sh
+sudo chmod +x deploy.sh
 
 # Ejecutar el script de despliegue
 sudo ./deploy.sh
