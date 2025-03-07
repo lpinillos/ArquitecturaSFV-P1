@@ -28,7 +28,7 @@ El script automatiza la construcción y ejecución de un contenedor Docker para 
 ## Principios DevOps Aplicados
 1. Automatización: pues se ejecuta el codigo para ejecutar docker de forma automatica
 2. Infraestructura como codigo: pues se creo el dockerfile para definir la infraestructura.
-3. Gestión de configuracion: se definieron variables de entorno en el dockerfile con el objetivo de poder modificar el puerto sin necesidad de modificar el codigo.
+3. Monitoreo y verificacion: se monitorea la solucion de docker para ver si esta desplegada o no
 
 ## Captura de Pantalla
 Capturas de la aplicación en ejecución dentro del contenedor:
