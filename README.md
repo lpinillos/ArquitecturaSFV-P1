@@ -8,7 +8,7 @@
 - **Fecha:** 07/03/2025  
 
 ## Resumen de la Solución
-[Breve descripción de la implementación]
+La implementación consiste en un **Dockerfile** para contenerizar una aplicación Node.js y un **script de automatización** en Bash que construye la imagen, ejecuta el contenedor y verifica su funcionamiento.
 
 ## Dockerfile
 ![Dockerfile](https://github.com/user-attachments/assets/a9ca7eff-5404-43bd-a9c7-9cdca10efc0c)
