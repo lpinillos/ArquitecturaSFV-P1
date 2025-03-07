@@ -31,7 +31,7 @@ El script automatiza la construcción y ejecución de un contenedor Docker para 
 3. Monitoreo y verificacion: se monitorea la solucion de docker para ver si esta desplegada o no
 
 ## Captura de Pantalla
-Capturas de la aplicación en ejecución dentro del contenedor:
+Capturas de la aplicación en ejecución:
 
 ![Ejecución 1](https://github.com/user-attachments/assets/3f51217d-8b14-4121-8fad-3eae76222479)
 
