@@ -19,7 +19,7 @@ La implementación consiste en un **Dockerfile** para contenerizar una aplicaci�
 - Se ejecuta `npm install` para instalar las dependencias necesarias.
 - Se copia el código fuente al contenedor.
 - Se expone el puerto **8080** para permitir el acceso a la aplicación desde fuera del contenedor.
-- Se configuran variables de entorno para facilitar la gestión, permitiendo modificar el puerto sin alterar el código. Se establece `NODE_ENV=production` para optimizar el rendimiento de las librerías y frameworks.
+- Se establece `NODE_ENV=production` para optimizar el rendimiento de las librerías y frameworks.
 - Finalmente, se define el comando de ejecución de la aplicación.
 
 ## Script de Automatización
