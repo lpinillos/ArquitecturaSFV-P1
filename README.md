@@ -23,7 +23,7 @@
 - Finalmente, se define el comando de ejecución de la aplicación.
 
 ## Script de Automatización
-[Descripción del funcionamiento del script y sus funcionalidades]
+El script automatiza la construcción y ejecución de un contenedor Docker para una aplicación Node.js, verificando que esté funcionando correctamente. Simplifica el despliegue y asegura que la aplicación esté lista para su uso.
 
 ## Principios DevOps Aplicados
 1. Automatización: pues se ejecuta el codigo para ejecutar docker de forma automatica
