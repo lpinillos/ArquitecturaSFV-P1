@@ -43,6 +43,7 @@ Capturas de la aplicación en ejecución:
 - Implementar un manejo de errores más detallado.
 - Que los logs sean mas detallados
 - Configuracion de puerto por fuera del codigo
+- Implementar verificacion de que el puerto esta en uso o de que el contenedor ya esta creado.
 
 ## Instrucciones para Ejecutar
 Pasos para ejecutar la solución:
