@@ -33,6 +33,8 @@
 ## Captura de Pantalla
 [Incluye al menos una captura de pantalla que muestre tu aplicación funcionando en el contenedor]
 
+![image](https://github.com/user-attachments/assets/3f51217d-8b14-4121-8fad-3eae76222479)
+
 ![image](https://github.com/user-attachments/assets/e0c02529-52e9-4bd8-8836-e8bf13a3ba68)
 
 ![image](https://github.com/user-attachments/assets/71685dfd-5de9-47ad-a154-b09f95a6545d)
