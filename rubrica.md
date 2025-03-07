@@ -8,8 +8,7 @@ Desarrollar una solución que demuestre la comprensión de la contenerización, 
 ### 1. Contenerización (40%)
 - Crear un Dockerfile para la aplicación Node.js proporcionada
 
-![image](https://github.com/user-attachments/assets/c4b80785-0d72-466c-8a8b-fabc93603c0b)
-
+![image](https://github.com/user-attachments/assets/04d8fc50-c586-4dfa-bde2-613b9c8bb0d0)
 
 - Construir una imagen de Docker
   
@@ -17,11 +16,14 @@ Desarrollar una solución que demuestre la comprensión de la contenerización, 
 
 - Ejecutar un contenedor a partir de la imagen
 
-![image](https://github.com/user-attachments/assets/2f184235-d21b-4d2f-9065-f732c56469b2)
+![image](https://github.com/user-attachments/assets/f930639c-578b-4ea3-b1f9-f0c3cc85ffc1)
+
 
 - Verificar que la aplicación funciona correctamente
 
 ![image](https://github.com/user-attachments/assets/0532fc1d-8540-4e11-b7f1-c12af680b64e)
+![image](https://github.com/user-attachments/assets/91cd4d12-4056-465c-84ef-dbb29c535e42)
+
 
 
 ### 2. Script de Automatización (40%)
