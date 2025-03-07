@@ -41,8 +41,8 @@ Capturas de la aplicación en ejecución dentro del contenedor:
 [Propuestas de mejora para el futuro]
 
 - Implementar un manejo de errores más detallado.
-- [Mejora 2]
-- [Mejora 3]
+- Que los logs sean mas detallados
+- Configuracion de puerto por fuera del codigo
 
 ## Instrucciones para Ejecutar
 Pasos para ejecutar la solución:
