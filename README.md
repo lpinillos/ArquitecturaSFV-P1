@@ -3,9 +3,9 @@
 # Evaluación Práctica - Ingeniería de Software V
 
 ## Información del Estudiante
-- **Nombre:**
-- **Código:**
-- **Fecha:**
+- **Nombre:** Luis Fernando Pinillos Sanchez
+- **Código:** A00381323
+- **Fecha:** 07/03/2025
 
 ## Resumen de la Solución
 [Breve descripción de tu implementación]
