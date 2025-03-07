@@ -1,49 +1,63 @@
 # ArquitecturaSFV-P1
 
-# Evaluación Práctica - Ingeniería de Software V
+## Evaluación Práctica - Ingeniería de Software V
 
-## Información del Estudiante
-- **Nombre:** Luis Fernando Pinillos Sanchez
-- **Código:** A00381323
-- **Fecha:** 07/03/2025
+### Información del Estudiante
+- **Nombre:** Luis Fernando Pinillos Sanchez  
+- **Código:** A00381323  
+- **Fecha:** 07/03/2025  
 
 ## Resumen de la Solución
-[Breve descripción de tu implementación]
+[Breve descripción de la implementación]
 
 ## Dockerfile
-![image](https://github.com/user-attachments/assets/a9ca7eff-5404-43bd-a9c7-9cdca10efc0c)
+![Dockerfile](https://github.com/user-attachments/assets/a9ca7eff-5404-43bd-a9c7-9cdca10efc0c)
 
-- Se hace uso de una imagen oficial de Nodejs, especificamente de la versión 14 debido a que esta es una versión LTS. También se hace uso de alpine debido a que es una versión mas ligera.
-- El WORKDIR se definió asi debido a que es una ruta estandar para contenedores de Nodejs, lo cual facilita que el resto de comandos se ejecute en esa ruta.
-- Se copian el package.json y el package-lock.json debido a que queremos copiar todas las dependencias, tomando en consideración los cambios que pueden tener estos archivos.
-- Luego se hace el npm install para poder instalar todas las dependencias.
-- Después de instalar las dependencias, copiamos todo el codigo fuente al contenedor.
-- Se expone el puerto 8080 para que la aplicación sea accesible por fuera del contenedor.
-- Se definen las variables de entorno para facilitar su gestión, por ejemplo la variable de entorno de puerto nos permite modificar el puerto sin necesidad de modificar el codigo. En cuanto al NODE_ENV=production, esto se hace porque muchos frameworks y librerias optimizan su rendimiento en este modo.
-- Por último, se define el comando de ejecución de la aplicación.
+- Se utiliza una imagen oficial de **Node.js**, específicamente la versión 14 LTS, debido a su estabilidad y soporte extendido. Se elige **Alpine** por ser una versión ligera.
+- Se define el **WORKDIR** en una ruta estándar para contenedores de Node.js, lo que facilita la ejecución de comandos dentro del contenedor.
+- Se copian `package.json` y `package-lock.json` para garantizar la instalación de todas las dependencias, considerando posibles cambios en estos archivos.
+- Se ejecuta `npm install` para instalar las dependencias necesarias.
+- Se copia el código fuente al contenedor.
+- Se expone el puerto **8080** para permitir el acceso a la aplicación desde fuera del contenedor.
+- Se configuran variables de entorno para facilitar la gestión, permitiendo modificar el puerto sin alterar el código. Se establece `NODE_ENV=production` para optimizar el rendimiento de las librerías y frameworks.
+- Finalmente, se define el comando de ejecución de la aplicación.
 
 ## Script de Automatización
-[Describe cómo funciona tu script y las funcionalidades implementadas]
+[Descripción del funcionamiento del script y sus funcionalidades]
 
 ## Principios DevOps Aplicados
-1. [Principio 1]
-2. [Principio 2]
+1. Automatización: pues se ejecuta el codigo para ejecutar docker de forma automatica
+2. Infraestructura como codigo: pues se creo el dockerfile para definir la infraestructura.
 3. [Principio 3]
 
 ## Captura de Pantalla
-[Incluye al menos una captura de pantalla que muestre tu aplicación funcionando en el contenedor]
+Capturas de la aplicación en ejecución dentro del contenedor:
 
-![image](https://github.com/user-attachments/assets/3f51217d-8b14-4121-8fad-3eae76222479)
+![Ejecución 1](https://github.com/user-attachments/assets/3f51217d-8b14-4121-8fad-3eae76222479)
 
-![image](https://github.com/user-attachments/assets/e0c02529-52e9-4bd8-8836-e8bf13a3ba68)
+![Ejecución 2](https://github.com/user-attachments/assets/e0c02529-52e9-4bd8-8836-e8bf13a3ba68)
 
 ## Mejoras Futuras
-[Describe al menos 3 mejoras que podrían implementarse en el futuro]
+[Propuestas de mejora para el futuro]
 
-- Se podria implementar un manejo de errores mas detallado.
-- 
+- Implementar un manejo de errores más detallado.
+- [Mejora 2]
+- [Mejora 3]
 
 ## Instrucciones para Ejecutar
-[Instrucciones paso a paso para ejecutar tu solución]
+Pasos para ejecutar la solución:
 
-clona el repositorio
+```sh
+# Clonar el repositorio
+git clone https://github.com/lpinillos/ArquitecturaSFV-P1.git
+
+# Acceder al directorio del proyecto
+git cd ArquitecturaSFV-P1.git
+
+# Dar permisos de ejecución al script\sudo chmod +x deploy.sh
+
+# Ejecutar el script de despliegue
+sudo ./deploy.sh
+
+# Verificar la implementación
+curl http://localhost:8080
