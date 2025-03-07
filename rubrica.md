@@ -21,9 +21,7 @@ Desarrollar una solución que demuestre la comprensión de la contenerización, 
 
 - Verificar que la aplicación funciona correctamente
 
-![image](https://github.com/user-attachments/assets/2c90cb5b-2f9e-445f-9576-cd8d100a100a)
-![image](https://github.com/user-attachments/assets/da8e0164-e8f6-41c7-9b5d-544ec48b7491)
-![image](https://github.com/user-attachments/assets/5cbc0b1c-3a06-44a7-8a87-695e8019db74)
+![image](https://github.com/user-attachments/assets/0532fc1d-8540-4e11-b7f1-c12af680b64e)
 
 
 ### 2. Script de Automatización (40%)
